@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
+}
+
+#cara-penyelesaian {
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
