@@ -1,0 +1,38 @@
+
+.gambar{
+    margin-left: 6px;
+}
+.sidebar-satu img{
+    display: block; /* Membuat gambar menjadi elemen blok agar dapat menerapkan lebar dan tinggi */
+    margin-top: 100px; /* Posisi tengah secara horizontal */
+    margin-left: 5px;
+    border-radius: 60%; /* Memberikan border lingkaran */
+    border: 5px solid #fff; /* Menambahkan border putih dengan ketebalan 5px */
+    width: 100px; /* Sesuaikan lebar gambar sesuai kebutuhan */
+    height: 100px; /* Sesuaikan tinggi gambar sesuai kebutuhan */   
+    grid-area: gambar-sidebar;
+    justify-self: start;
+    align-self: end; /* Menambahkan align-self untuk posisi vertikal ke bawah (end) */
+    transition: all;
+    transition-duration: 1s;
+}
+.sidebar-satu img:hover{
+    margin-left: -5px;
+}
+.caption{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sidebar-satu li a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid ;
+    transition: background-color 0.5s;
+}
+.sidebar-satu li a:hover{
+    background-color: rgba(255, 255, 255, 0.3);;
+}
